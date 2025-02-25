@@ -30,5 +30,9 @@ printf("The numbers in ascending order are;\n");
 for(i=0;i<5;i++){
 printf("%d, ",array[i]);
 }
+float avg;
+int sum=array[0]+array[1]+array[2]+array[3]+array[4];
+avg=sum/5;
+printf("The average of these numbers is %.2f\n",avg);
 return 0; }
 
